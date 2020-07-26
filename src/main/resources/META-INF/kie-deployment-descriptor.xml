@@ -9,7 +9,14 @@
     <event-listeners/>
     <task-event-listeners/>
     <globals/>
-    <work-item-handlers/>
+    <work-item-handlers>
+        <work-item-handler>
+            <resolver>reflection</resolver>
+            <identifier>com.myspace.test_abort_wih.ManualOperation</identifier>
+            <parameters/>
+            <name>ManualOperation</name>
+        </work-item-handler>
+    </work-item-handlers>
     <environment-entries/>
     <configurations/>
     <required-roles/>
