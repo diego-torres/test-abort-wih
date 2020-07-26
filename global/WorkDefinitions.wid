@@ -1,13 +1,7 @@
 [
   [
-    "name" : "Email",
-    "parameters" : [
-      "From" : new StringDataType(),
-      "To" : new StringDataType(),
-      "Subject" : new StringDataType(),
-      "Body" : new StringDataType()
-    ],
-    "displayName" : "Email",
+    "name" : "ManualOperation"
+    "displayName" : "Manual Operation",
     "icon" : "defaultemailicon.gif"
   ],
 
