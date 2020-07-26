@@ -3,16 +3,16 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-snapshot-plugins</id>
-        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <id>jboss-enterprise</id>
+        <url>http://maven.repository.redhat.com/ga</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>fuse-public</id>
-        <url>https://repository.jboss.org/nexus/content/groups/fs-public/</url>
+        <id>jboss</id>
+        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -27,25 +27,25 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-enterprise</id>
-        <url>http://maven.repository.redhat.com/ga</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>maven-central-plugins</id>
-        <url>https://repo1.maven.org/maven2/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-snapshot-plugins</id>
+        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-public</id>
+        <url>https://repository.jboss.org/nexus/content/groups/fs-public/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -75,8 +75,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss</id>
-        <url>http://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        <id>maven-central-plugins</id>
+        <url>https://repo1.maven.org/maven2/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
