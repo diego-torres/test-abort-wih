@@ -2,6 +2,6 @@
   [
     "name" : "ManualOperation",
     "displayName" : "Manual Operation",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "envelope.png"
   ]
 ]
